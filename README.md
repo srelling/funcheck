@@ -19,8 +19,8 @@ class X {
 };
 
 int main(){
-    std::cout << funcheck::has_func1<X>() << std::endl; // prints 1
-    std::cout << funcheck::has_func2<X>() << std::endl; // prints 0
+    std::cout << funcheck::has_func1<X>() << std::endl; // checks if class X has function func1: prints 1
+    std::cout << funcheck::has_func2<X>() << std::endl; // checks if class X has function func2: prints 0
     return 0;
 }
 ```
